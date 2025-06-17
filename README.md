@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# projet_python
+projet de suivi de l'alimentation de la population gabonaise réalisé en python 
+>>>>>>> bb1d142a8c38f6b0e0043e986a8bac103fa208b3
 # 🥗 API Flask - Suivi de l'Alimentation
 
 Ce projet est une API web backend développée avec **Flask** permettant de gérer des personnes, leurs repas, les ingrédients associés, les images des repas, ainsi que les réactions négatives aux repas afin de détecter d'éventuelles allergies.
