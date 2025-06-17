@@ -1,0 +1,29 @@
+version: '3.9'
+
+services:
+  web:
+    build: .
+    container_name: flask_api
+    ports:
+      - "5002:5000"
+    environment:
+      - FLASK_ENV=development
+      - DATABASE_URL=postgresql://postgres:9069765@db:5432/alimentation
+    depends_on:
+      - db
+    command: ["./start.sh"]
+
+  db:
+    image: postgres:15
+    container_name: flask_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 9069765
+      POSTGRES_DB: alimentation
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5433:5432"
+
+volumes:
+  pgdata:

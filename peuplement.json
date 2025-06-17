@@ -1,0 +1,141 @@
+{
+    "personnes": [
+      {
+        "nom": "Makune",
+        "prenom": "Bijoël",
+        "age": 22,
+        "sexe": "FEMME",
+        "email": "bijoel@example.com"
+      },
+      {
+        "nom": "Ntsame",
+        "prenom": "Estelle",
+        "age": 25,
+        "sexe": "FEMME",
+        "email": "estelle.nts@example.com"
+      },
+      {
+        "nom": "Obiang",
+        "prenom": "Kévin",
+        "age": 28,
+        "sexe": "HOMME",
+        "email": "kev.obiang@example.com"
+      }
+    ],
+    "repas": [
+      {
+        "nom": "Poulet Nyembwe",
+        "description": "Poulet mijoté dans une sauce à base de pâte d'akpi (noix de palme).",
+        "origine": "Gabon",
+        "ingredients": [
+          "poulet",
+          "pâte d'akpi",
+          "huile de palme",
+          "oignon",
+          "piment"
+        ],
+        "images": [
+          "image1.jpeg",
+          "image2.jpeg",
+          "image3.jpeg",
+          "image4.jpeg",
+          "image5.jpeg"
+        ],
+        "reactions": [
+          {
+            "personne_id": 1,
+            "description": "Sensation de brûlure d'estomac"
+          }
+        ]
+      },
+      {
+        "nom": "Odika",
+        "description": "Viande ou poisson dans une sauce noire d’odika (graine sauvage).",
+        "origine": "Gabon",
+        "ingredients": [
+          "viande",
+          "graine d'odika",
+          "huile rouge",
+          "ail",
+          "sel"
+        ],
+        "images": [
+          "image1.jpeg",
+          "image2.jpeg",
+          "image3.jpeg",
+          "image4.jpeg",
+          "image5.jpeg"
+        ],
+        "reactions": [
+          {
+            "personne_id": 1,
+            "description": "Nausées légères"
+          }
+        ]
+      },
+      {
+        "nom": "Riz au gnetum",
+        "description": "Riz servi avec une sauce aux feuilles de gnetum (éru).",
+        "origine": "Gabon",
+        "ingredients": [
+          "riz",
+          "feuilles de gnetum",
+          "poisson fumé",
+          "huile",
+          "cube"
+        ],
+        "images": [
+          "image1.jpeg",
+          "image2.jpeg",
+          "image3.jpeg",
+          "image4.jpeg",
+          "image5.jpeg"
+        ]
+      },
+      {
+        "nom": "Feuilles de manioc",
+        "description": "Feuilles de manioc pilées, mijotées avec de l’huile et du poisson.",
+        "origine": "Gabon",
+        "ingredients": [
+          "feuilles de manioc",
+          "huile de palme",
+          "poisson",
+          "sel",
+          "piment"
+        ],
+        "images": [
+          "image1.jpeg",
+          "image2.jpeg",
+          "image3.jpeg",
+          "image4.jpeg",
+          "image5.jpeg"
+        ],
+        "reactions": [
+          {
+            "personne_id": 1,
+            "description": "Ballonnement"
+          }
+        ]
+      },
+      {
+        "nom": "Mboum",
+        "description": "Légumes et arachide, parfois avec viande.",
+        "origine": "Gabon",
+        "ingredients": [
+          "arachide",
+          "feuilles locales",
+          "viande",
+          "ail",
+          "huile"
+        ],
+        "images": [
+          "image1.jpeg",
+          "image2.jpeg",
+          "image3.jpeg",
+          "image4.jpeg",
+          "image5.jpeg"
+        ]
+      }
+    ]
+  }
+  
